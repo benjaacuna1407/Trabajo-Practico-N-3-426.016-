@@ -24,8 +24,8 @@ int main(void) {
 	while (alt < 0);
 	bmi = peso / (alt * alt);
 	
-	printf ("\n\nSu Ìndice de masa corporal es: %.2f\n\n", bmi);
-	printf ("Indice \t\t|\tCondiciÛn\n------------------------------\n<18.5\t\t|\tBajo peso\n18.5 a 24.9\t|\tNormal\n25.0 a 29.9\t|\tSobrepeso\n>=30\t\t|\tObesidad\n\n");
+	printf ("\n\nSu √≠ndice de masa corporal es: %.2f\n\n", bmi);
+	printf ("Indice \t\t|\tCondici√≥n\n------------------------------\n<18.5\t\t|\tBajo peso\n18.5 a 24.9\t|\tNormal\n25.0 a 29.9\t|\tSobrepeso\n>=30\t\t|\tObesidad\n\n");
 	
 	if (bmi<18.5)
 		printf ("Usted tiene bajo peso");
